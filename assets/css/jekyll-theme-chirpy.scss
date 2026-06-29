@@ -1,0 +1,29 @@
+---
+---
+
+/*This file is to make UI changes from base template*/
+
+/* make square sharp ended post cards*/
+
+@use 'main{% if jekyll.environment == "production" %}.bundle{% endif %}';
+
+/* ===== Square post cards ===== */
+#post-list .card {
+  border-radius: 0 !important;
+}
+
+/* Also flatten the card image corners if you have thumbnail images */
+#post-list .card .card-img-top,
+#post-list .card .card-img-overlay {
+  border-radius: 0 !important;
+}
+
+/* Square post cards - covers all Chirpy versions */
+.post-preview,
+#post-list li .card,
+#post-list .card,
+ul#post-list .card {
+  border-radius: 0 !important;
+  --bs-card-border-radius: 0;
+  --bs-card-inner-border-radius: 0;
+}
