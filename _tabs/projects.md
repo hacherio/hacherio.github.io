@@ -25,7 +25,7 @@ html[data-mode='dark'] .project-link {
 
 - **April 2026**: <strong><a class="project-link" href="https://github.com/hacherio/Categorical-CrossDoc-Democritus-Extension">Categorical CrossDoc Democritus Extension</a></strong> - Applies category theory (Kan extensions, sheaf colimits) to discover novel causal claims from research papers; a UMass CS692CT course project extending the CLIFF system.
 
-- **April 2026**: <strong><a class="project-link" href="https://github.com/hacherio/AI-Poker-Agent">AI Poker Agent</a></strong> - Team final project (group of 4) for COMPSCI 683 (Artificial Intelligence) at UMass Amherst, tackling 2-player Limit Texas Hold'em's ~10^17-state imperfect-information game tree. Built four independent agents attacking the problem from different angles.
+- **April 2026**: <strong><a class="project-link" href="https://github.com/swanky-rt/AI-poker-agent">AI Poker Agent</a></strong> - Team final project (group of 4) for COMPSCI 683 (Artificial Intelligence) at UMass Amherst, tackling 2-player Limit Texas Hold'em's ~10^17-state imperfect-information game tree. Built four independent agents attacking the problem from different angles.
 
 - **Feb. 2026**: <strong><a class="project-link" href="https://github.com/hacherio/agentic-search">Agentic Search</a></strong> - An AI-powered search app that turns a query into a structured, sourced data table; DuckDuckGo search + LLM-based schema inference and extraction.
 
