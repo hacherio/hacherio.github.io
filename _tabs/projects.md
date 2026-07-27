@@ -18,12 +18,14 @@ Contributed to UMass Rescue Lab research project focusing on child-safety: a ful
 ### [UMass Food Review](https://github.com/hacherio/UMass-Food-Review)
 A multi-microservice food review web app built for CS 426 (Scalable web system) using event-bus communication with separate services for reviews, photos, and management, all containerized via Docker deployment(docker-compose for dev and prod).
 
-
-### [Access Scheduler](https://github.com/hacherio/Access-Scheduler)
-CS 377 Project (Operating Systems) - this is an extension to the course's MLFQ (Multi-level feedback queue) scheduler that layers in privilege and access control. Written in C, built with Makefile.
+### [MeetU](https://github.com/suobset/meetu)
+Team project for CS 326 (Web Programming) to recreate When2Meet as a cleaner-designed scheduling app. Built with Node.js/Express and Bootstrap 5 for frontend, MySQL for backend, and Heroku/AWS for hosting. MeetU lets registered users (via Google OAuth) create events, drag-select time availabilities on a group heatmap-style grid, vote on meeting locations via polls, and comment. All wrapped in a dashboard for managing past/future meetings.
 
 ### [MoodMusic - HACKUMass IX project](https://github.com/hacherio/MoodMusic)
 UMass Amherst Hackathon project. Essentially a spotify visual music web player linked to user's account. Spotify API (before deprecation) computes the song's "moods" using values of audio features and returns the mood of the song.  
+
+### [Access Scheduler](https://github.com/hacherio/Access-Scheduler)
+CS 377 Project (Operating Systems) - this is an extension to the course's MLFQ (Multi-level feedback queue) scheduler that layers in privilege and access control. Written in C, built with Makefile.
 
 ### [FIRST Robitics Competition Project](https://github.com/hacherio/RobotFRC/tree/master/frcRobot/frcRobot)
 Team project to operate heavy-duty robots through game pieces in John D. O'Bryant highschool country-wide competition. Programmed completely in java.
