@@ -6,8 +6,20 @@ title: Projects
 
 <style>
 .project-link {
-  color: blue;
+  color: blue !important;
   text-decoration: underline;
+}
+
+/* Explicit dark mode (user toggled) */
+html[data-mode='dark'] .project-link {
+  color: lightblue !important;
+}
+
+/* System dark mode, when no explicit toggle has been set */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) .project-link {
+    color: lightblue !important;
+  }
 }
 </style>
 
